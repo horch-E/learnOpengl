@@ -1,0 +1,5 @@
+# ninja log v5
+2	96	1699974589211032701	CMakeFiles/learnOpengl.dir/3rd/glad/src/glad.c.o	3900d758122ef84e
+354	391	1699974589505338473	learnOpengl	f9ae727c7cc57e82
+3	354	1699974589467857930	CMakeFiles/learnOpengl.dir/main.cpp.o	a360812ec89fb13c
+1	53	1699976928016636864	build.ninja	2e3ea229f8b21821
