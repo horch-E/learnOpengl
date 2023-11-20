@@ -19,6 +19,8 @@ add_library(mylib STATIC IMPORTED)
 set_target_properties(mylib PROPERTIES IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/bin/libskia.a)
 
 # 执行编译命令
-set(SOURCE_FILES "3rd/glad/src/glad.c" "main.cpp")
+set(SOURCE_FILES "3rd/glad/src/glad.c" "MainView/main.cpp"
+        MainView/Window.cpp
+        MainView/Window.h)
 add_executable(learnOpengl ${SOURCE_FILES})
 target_link_libraries(learnOpengl PRIVATE mylib $<LINK_LIBRARY:FRAMEWORK,AppKit>)
